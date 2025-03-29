@@ -1,1 +1,1 @@
-# pip install ipykernel
+# Please complete advanced python programming langauge.
