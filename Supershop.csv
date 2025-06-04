@@ -1,6 +1,0 @@
-Order ID,Order Date,Customer ID,Customer Name,City,State,Product Category,Product Name,Quantity,Price per Unit,Total Amount,Payment Method
-1001,2025-03-01,C001,John Doe,New York,NY,Laptop,Dell XPS 13,1,999.99,999.99,Credit Card
-1002,2025-03-02,C002,Jane Smith,Brooklyn,NY,Smartphone,iPhone 13,2,799.99,1599.98,PayPal
-1003,2025-03-03,C003,Michael Brown,Queens,NY,Tablet,Samsung Galaxy Tab S7,1,649.99,649.99,Debit Card
-1004,2025-03-04,C004,Emily Davis,Manhattan,NY,Headphones,Sony WH-1000XM4,1,349.99,349.99,Credit Card
-1005,2025-03-05,C005,Chris Wilson,Staten Island,NY,Monitor,LG UltraFine 5K Display,1,1299.99,1299.99,Apple Pay
