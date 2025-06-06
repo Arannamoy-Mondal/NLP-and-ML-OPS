@@ -44,31 +44,26 @@
     {
         "Name": "Yuvraj Nair",
         "Age": 31,
-        "City": "Kolkata",
         "Profession": "Blockchain Architect"
     },
     {
         "Name": "Arjun Patel",
         "Age": 27,
-        "City": "Noida",
         "Profession": "Frontend Developer"
     },
     {
         "Name": "Devansh Rao",
         "Age": 34,
-        "City": "Gurgaon",
         "Profession": "Cloud Solutions Engineer"
     },
     {
         "Name": "Anaya Iyer",
         "Age": 29,
-        "City": "Jaipur",
         "Profession": "UI/UX Designer"
     },
     {
         "Name": "Diya Pillai",
         "Age": 32,
-        "City": "Nagpur",
         "Profession": "Mobile App Developer"
     },
     {
