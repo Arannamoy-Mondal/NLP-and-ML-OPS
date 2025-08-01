@@ -1,11 +1,12 @@
-n=int(input("n:"))
-l1=[]
-sum=0
-for i in range (0,n):
-    input1=int(input("number:"))
-    l1.append(input1)
-    sum+=input1
+l1=[x for x in range (1,11)]
+#l1=list(set(l1))
 print(l1)
-print(sum/n)
-l1=list(set(l1))
+l1.remove(7)
 print(l1)
+l1[0]=50
+l1.pop(6)
+print(l1)
+new_list=[x**2  for x in l1 if x%2==0]
+print(new_list)
+new_list.sort(reverse=True)
+print(new_list)
