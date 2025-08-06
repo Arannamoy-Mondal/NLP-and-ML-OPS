@@ -15,7 +15,8 @@
         "Name": "Ishaan Reddy",
         "Age": 35,
         "City": "Pune",
-        "Profession": "Full Stack Developer"
+        "Profession": "Full Stack Developer",
+        "Full Stack":"MERN+Django+SpringBoot"
     },
     {
         "Name": "Advait Desai",
