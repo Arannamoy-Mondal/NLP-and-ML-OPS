@@ -38,18 +38,18 @@
     },
     {
         "Name": "Laksh Agarwal",
-        "Age": 40,
+ 
         "City": "Delhi",
         "Profession": "AI/ML Engineer"
     },
     {
         "Name": "Yuvraj Nair",
-        "Age": 31,
+
         "Profession": "Blockchain Architect"
     },
     {
         "Name": "Arjun Patel",
-        "Age": 27,
+
         "Profession": "Frontend Developer"
     },
     {
@@ -120,6 +120,12 @@
         "Age": 38,
         "City": "Ranchi",
         "Profession": "Software Engineer"
+    },
+    {
+        "Name": "Ayaan Tripathi",
+        "Age": 39,
+        "City": "Raipur",
+        "Profession": "Distributed Systems Engineer"
     },
     {
         "Name": "Ayaan Tripathi",
