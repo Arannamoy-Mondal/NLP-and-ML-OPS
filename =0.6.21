@@ -1,0 +1,17 @@
+Collecting python-pptx
+  Downloading python_pptx-1.0.2-py3-none-any.whl.metadata (2.5 kB)
+Requirement already satisfied: Pillow>=3.3.2 in ./.venv/lib/python3.12/site-packages (from python-pptx) (11.3.0)
+Collecting XlsxWriter>=0.5.7 (from python-pptx)
+  Downloading xlsxwriter-3.2.5-py3-none-any.whl.metadata (2.7 kB)
+Collecting lxml>=3.1.0 (from python-pptx)
+  Downloading lxml-6.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Collecting typing-extensions>=4.9.0 (from python-pptx)
+  Downloading typing_extensions-4.14.1-py3-none-any.whl.metadata (3.0 kB)
+Downloading python_pptx-1.0.2-py3-none-any.whl (472 kB)
+Downloading lxml-6.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (5.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.3/5.3 MB 9.9 MB/s  0:00:00
+Downloading typing_extensions-4.14.1-py3-none-any.whl (43 kB)
+Downloading xlsxwriter-3.2.5-py3-none-any.whl (172 kB)
+Installing collected packages: XlsxWriter, typing-extensions, lxml, python-pptx
+
+Successfully installed XlsxWriter-3.2.5 lxml-6.0.0 python-pptx-1.0.2 typing-extensions-4.14.1
