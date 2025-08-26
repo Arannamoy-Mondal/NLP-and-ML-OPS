@@ -79,3 +79,9 @@ def root():
 </body>
 </html>
 ```
+
+## Template inheritance
+
+```html
+{% extends 'base.html' %}
+```
