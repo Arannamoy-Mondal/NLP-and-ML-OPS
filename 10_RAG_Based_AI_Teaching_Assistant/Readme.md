@@ -10,8 +10,12 @@
 
 
 ### Requirements
-- whisper
+- openai-whisper
 - ffmeg
 
 
 ### Video to Text with Timestamps Using  Whisper
+
+### Hardware Requirement:
+- Atleast 10 GB VRAM
+

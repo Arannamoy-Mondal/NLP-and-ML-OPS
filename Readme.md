@@ -39,3 +39,10 @@ conda install jupyterlab
 ```bash
 jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root
 ```
+
+
+### Requirements.txt without version 
+
+```bash
+pip freeze | python -c "for p in __import__('sys').stdin: print(p.split('=')[0])" > requirements.txt
+```

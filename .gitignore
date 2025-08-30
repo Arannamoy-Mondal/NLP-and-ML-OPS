@@ -2,3 +2,5 @@
 .ipynb_checkpoint
 __pycache__
 music
+audios
+2_mp3_to_text.json

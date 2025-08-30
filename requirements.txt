@@ -13,6 +13,7 @@ cycler
 debugpy
 decorator
 Django
+exceptiongroup
 executing
 Flask
 flatbuffers
@@ -69,7 +70,6 @@ rich
 scikit-learn
 scipy
 seaborn
-setuptools
 six
 soupsieve
 sqlparse
@@ -86,6 +86,6 @@ tzdata
 urllib3
 wcwidth
 Werkzeug
-wheel
+whisper
 wrapt
 xlsxwriter
