@@ -19,3 +19,7 @@
 ### Hardware Requirement:
 - Atleast 10 GB VRAM
 
+### Ollama modeles
+- ChatGPT OSS
+- LLAMA4
+
