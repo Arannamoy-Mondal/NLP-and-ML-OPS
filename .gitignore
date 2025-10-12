@@ -1,5 +1,7 @@
 .venv
 .ipynb_checkpoint
+.ipynb_checkpoints
+.virtual_documents
 __pycache__
 music
 audios
