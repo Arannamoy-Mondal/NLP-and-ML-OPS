@@ -92,7 +92,10 @@ Output: programming
 
 `Solution`
 ```py
-
+inputs=input()
+inputs=inputs.split()
+inputs.sort(key=len,reverse=True)
+print(inputs[0])
 ```
 ### P-5: A number is called strong if the sum of the factorial of its digits equals the number itself. Example: 145 = 1! + 4! + 5!
 

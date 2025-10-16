@@ -1,5 +1,10 @@
-# inputs=input()
-inputs="Python programming is enjoyable"
-inputs=inputs.split()
-inputs=inputs.sort(chr,index=True)
-print(inputs)
+from math import factorial
+inputs=input()
+sum=0
+for i in list(inputs):
+    sum+=factorial(int(i))
+    
+if sum==int(inputs):
+    print("Strong Number")
+else:
+    print("Not Strong Number")
