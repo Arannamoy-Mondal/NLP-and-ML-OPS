@@ -51,7 +51,7 @@ Area: 153.94
 ```py
 from math import pi
 class Shape:
-    def area():
+    def area(self):
         return 0
 
 class Rectangle(Shape):
