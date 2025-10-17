@@ -32,7 +32,7 @@ def safe_divide(a,b):
 
 inputs=input().split()
 inputs=list(map(lambda x:int(x),inputs))
-safe_division(inputs[0],inputs[1])
+safe_divide(inputs[0],inputs[1])
 ```
 
 ### P-3: Create a base class Shape with a method area() that returns 0. Create subclasses:Rectangle(w,h) → area = w × h, Circle(r) → area = π × r². Read shape type and parameters, then print area (rounded to 2 decimals).
