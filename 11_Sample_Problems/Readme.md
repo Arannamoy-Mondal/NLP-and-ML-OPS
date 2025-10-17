@@ -24,7 +24,7 @@ Output: Division by zero
 
 `Solution:`
 ```py
-def safe_division(a,b):
+def safe_divide(a,b):
     try:
         print(a/b)
     except Exception as e:
