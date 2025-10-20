@@ -1,10 +1,3 @@
-from math import factorial
-inputs=input()
-sum=0
-for i in list(inputs):
-    sum+=factorial(int(i))
-    
-if sum==int(inputs):
-    print("Strong Number")
-else:
-    print("Not Strong Number")
+import numpy as np
+arr=np.array([[1,2,3,4],[5,6,7,8],[9,10,11,12]])
+print(np.reval(arr,order="F"))
