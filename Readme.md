@@ -46,3 +46,10 @@ jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root
 ```bash
 pip freeze | python -c "for p in __import__('sys').stdin: print(p.split('=')[0])" > requirements.txt
 ```
+
+
+### Update anaconda
+
+```bash
+conda update anaconda
+```
