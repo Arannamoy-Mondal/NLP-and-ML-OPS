@@ -6,3 +6,4 @@ __pycache__
 music
 audios
 2_mp3_to_text.json
+.env
