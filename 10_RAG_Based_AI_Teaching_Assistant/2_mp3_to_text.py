@@ -1,10 +1,15 @@
 import whisper
 import pandas as pd
 import json
+import torch
 
-model=whisper.load_model("large-v2")
+gpu_count=torch.cuda.device_count()
 
-result=model.transcribe(audio="./audios/1_music.mp3",language="bn",task="Translate")
+print("GPU Count:",gpu_count)
+
+model=whisper.load_model("tiny").to("cuda")
+
+result=model.transcribe(audio="./audios/1.mp3",language="bn",task="Translate")
 
 
 chunks=[]
@@ -16,5 +21,5 @@ for segment in result["segments"]:
 
 print(result["text"])
 
-with open("./10_RAG_Based_AI_Teaching_Assistant/Data/2_mp3_to_text.json","w") as fl:
-     json.dump(chunks,fl)
+#with open("./10_RAG_Based_AI_Teaching_Assistant/Data/2_mp3_to_text.json","w") as fl:
+#     json.dump(chunks,fl)
