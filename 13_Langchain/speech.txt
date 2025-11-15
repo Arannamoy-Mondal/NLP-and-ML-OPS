@@ -1,1 +1,2 @@
-Hello hi bye
+Cost/Reveneu ItemAmount: Factory rent (90000 USD), Components and materials (60000 USD), Salaries of administrative staff (150000 USD), packaging and shipping (12000 USD), direct labor(36000 USD), marketing and advertising campaigns(50000 USD),sales commission(8000 USD),equipment dereciation(20000 USD),selling price(200000 USD). calculate total fixed cost,total variable cost per unit and selling price per unit if total production is 1000 units.
+calculate bep(units),bep(sales),target sales when target profit 120000.

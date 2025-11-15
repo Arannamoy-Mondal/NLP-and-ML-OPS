@@ -114,3 +114,6 @@ pymupdf
 wikipedia
 langchain-text-splitters
 seaborn
+chromadb
+sentence_transformers
+langchain_huggingface

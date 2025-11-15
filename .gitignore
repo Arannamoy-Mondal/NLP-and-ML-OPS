@@ -7,3 +7,5 @@ music
 audios
 2_mp3_to_text.json
 .env
+chromadb
+faiss_data
