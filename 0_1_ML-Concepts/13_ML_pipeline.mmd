@@ -1,0 +1,15 @@
+graph TD
+    A[Data Ingestion] --> B{Data Preprocessing};
+    B --> C{Feature Engineering};
+    C --> D[Model Training];
+    D --> E[Model Evaluation];
+    E -- Acceptable Performance? --> F{Model Deployment};
+    E -- No --> D;
+    F --> G[Monitoring & Maintenance];
+    G --> A;
+
+    subgraph Preprocessing Steps
+        B --> B1[Cleaning];
+        B1 --> B2[Transformation/Scaling];
+        B2 --> B3[Split: Train/Test];
+    end

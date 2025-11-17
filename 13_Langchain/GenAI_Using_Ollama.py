@@ -3,7 +3,7 @@ from langchain_community.llms.ollama import Ollama
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-llm=Ollama(model="phi4:latest")
+llm=Ollama(model="qwen3:14b")
 
 question=st.text_input("Enter your question:")
 prompt=ChatPromptTemplate([
