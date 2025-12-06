@@ -53,3 +53,7 @@ pip freeze | python -c "for p in __import__('sys').stdin: print(p.split('=')[0])
 ```bash
 conda update anaconda
 ```
+
+
+
+### 
