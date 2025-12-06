@@ -117,3 +117,4 @@ seaborn
 chromadb
 sentence_transformers
 langchain_huggingface
+numpy
